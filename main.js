@@ -54,6 +54,7 @@ function my_keydown(e)
 	else{
 		otherkey();
 		document.getElementById("d1").innerHTML = "You Clicked a Symbol or Another Key";
+		console.log("Other Key")
 	}
 }
 
